@@ -1,13 +1,15 @@
-# yarn-template
+# Basic Sample Hardhat Project
 
-Template repository to create yarn project
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-## dependencies
+Try running some of the following tasks:
 
-- eslint
-- eslint-config-prettier
-- husky
-- lint-staged
-- prettier
-- rimraf
-- sort-package-json
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
