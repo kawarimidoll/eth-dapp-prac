@@ -10,7 +10,10 @@
     "ci": "yarn install --frozen-lockfile",
     "fmt": "prettier --write --ignore-path ./.gitignore .",
     "lint": "fd --print0 --color=never | xargs --null deno lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start:deploy": "hardhat run scripts/deploy.js",
+    "start:node": "hardhat node",
+    "start:run": "hardhat run scripts/run.js"
   },
   "lint-staged": {
     "package.json": "sort-package-json",
