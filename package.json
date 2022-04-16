@@ -9,10 +9,12 @@
     "preci": "rm -rf node_modules",
     "ci": "yarn install --frozen-lockfile",
     "fmt": "prettier --write --ignore-path ./.gitignore .",
+    "lint": "fd --print0 --color=never | xargs --null deno lint",
     "prepare": "husky install"
   },
   "lint-staged": {
     "package.json": "sort-package-json",
+    "*.{js,jsx,vue,json,yml}": "deno lint",
     "*.{js,jsx,vue,json,md,html,css,yml,sol}": "prettier --write"
   },
   "devDependencies": {
