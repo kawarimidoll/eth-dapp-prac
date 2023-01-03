@@ -29,7 +29,7 @@
     "hardhat": "^2.12.4",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.1",
     "prettier-plugin-solidity": "^1.1.1",
     "rimraf": "^3.0.2",
     "sort-package-json": "^2.1.0"
