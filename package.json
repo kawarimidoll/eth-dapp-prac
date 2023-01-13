@@ -31,7 +31,7 @@
     "lint-staged": "^13.1.0",
     "prettier": "^2.7.1",
     "prettier-plugin-solidity": "^1.1.1",
-    "rimraf": "^3.0.2",
+    "rimraf": "^4.0.4",
     "sort-package-json": "^2.1.0"
   }
 }
